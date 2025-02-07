@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+.startText {
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+body {
+    background-color:darkorange;
+}
+
