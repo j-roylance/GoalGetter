@@ -1,1 +1,21 @@
-hello
+{
+	"music": {
+		"description": "Music stuff",
+		"type": "long-term"
+		"sub-goals": [
+			"Play Piano Every Day": {
+				"parent": "Music stuff",
+				"description": "Play the piano every day",
+				"type": "daily",
+				"sub-goals": []
+			},
+			"Make music album" : {
+				"parent": "Music stuff",
+				"description": "Make da album",
+				"type": "by-date",
+				"by-date": "January 1st, 2025, 9 AM",
+				"sub-goals": []
+			}
+		]
+	}
+}

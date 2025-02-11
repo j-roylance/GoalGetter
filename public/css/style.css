@@ -1,13 +1,11 @@
-* {
-    margin: 0;
-}
-
-.startText {
-    font-family: 'Times New Roman';
-    text-align: center;
-}
-
 body {
-    background-color:darkorange;
+    background-color: darkorange;
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* Full viewport height */
+    width: 100vw;   /* Full viewport width */
+    display: flex;
+    /* justify-content: center;  Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    text-align: center;  /* Ensures text in body is centered */
 }
-
