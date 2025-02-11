@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;  /* Centers horizontally */
+}
+
+.startText {
+    font-family: 'Arial';
+    text-align: center !important;
+    font-size: 5vh;
+    margin-bottom: 20px;  /* Optional: Adds space below the text */
+}
+
+
+.uploaderButton {
+    background-color: brown;
+    color: aliceblue;
+    width: 300px;
+    border: 5px solid black;
+    padding: 2px;
+    margin: 20px;
+    margin-left: 30% !important;
+    padding-bottom: 1px;
+    display: block;  /* Ensures the button is block-level */
+}
